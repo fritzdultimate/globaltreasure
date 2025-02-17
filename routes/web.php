@@ -133,3 +133,7 @@ Route::prefix('admin')->middleware(['login', 'admin'])->group(function(){
     Route::match(['get', 'post'], '/pages/how-it-works', [App\Http\Controllers\SiteSettingsController::class, 'howItWorks']);
     Route::get('/logout', [App\Http\Controllers\AdminController::class, 'logout']);
 });
+
+Route::get('/cron/queue-work', function() {
+    Illuminate\Support\Facades\Artisan::call('queue:work', ['--stop-when-empty' => true]);
+})->name('queue.work');
