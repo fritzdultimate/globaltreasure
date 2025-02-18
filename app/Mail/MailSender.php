@@ -9,7 +9,7 @@ use Illuminate\Mail\Mailable;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Queue\SerializesModels;
 
-class MailSender extends Mailable implements ShouldQueue {
+class MailSender extends Mailable {
     use Dispatchable, InteractsWithQueue, Queueable, SerializesModels;
     public $details;
 
