@@ -1,6 +1,6 @@
 @extends('guest.layouts.app')
 
-@section('title', 'PrimesGlobe | Best Forex, Commodity, Indices, Share Trading Platform')
+@section('title', 'PrimesGlobllimited | Best Forex, Commodity, Indices, Share Trading Platform')
 
 @section('content')
 
