@@ -14,7 +14,7 @@
         <meta data-n-head="ssr" name="apple-mobile-web-app-capable" content="yes" />
         <meta data-n-head="ssr" name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
-        <meta data-n-head="ssr" data-hid="description" name="description" content="Trade Easier on Forex, Gold, WTI, Brent Oil, S&amp;P500, Nasdaq100, Facebook, Apple, Amazon and more than 80 trending markets with PrimesGlobe ." />
+        <meta data-n-head="ssr" data-hid="description" name="description" content="Trade Easier on Forex, Gold, WTI, Brent Oil, S&amp;P500, Nasdaq100, Facebook, Apple, Amazon and more than 80 trending markets with PrimesGlobsllimited ." />
         <meta
             data-n-head="ssr"
             data-hid="keywords"
