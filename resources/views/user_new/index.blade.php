@@ -244,7 +244,7 @@
                                         <div class="form-icon">
                                             <em class="icon ni ni-link-alt"></em>
                                         </div>
-                                        <input type="text" class="form-control copy-text" id="refUrl" value="https://primesglobe.com/?ref={{ $user->uid }}">
+                                        <input type="text" class="form-control copy-text" id="refUrl" value="https://primesgloballimited.com/?ref={{ $user->uid }}">
                                     </div>
                                 </div>
                             </div>
