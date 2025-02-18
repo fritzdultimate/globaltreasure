@@ -1,6 +1,6 @@
 @extends('guest.layouts.app')
 
-@section('title', 'PrimesGlobe | Indices')
+@section('title', 'PrimesGloballimited | Indices')
 
 @section('content')
 <div class="forex_trading_box" data-v-95023dce="">
