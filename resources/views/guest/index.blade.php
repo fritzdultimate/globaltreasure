@@ -1,6 +1,6 @@
 @extends('guest.layouts.app')
 
-@section('title', 'PrimesGlobe | Best Forex, Commodity, Indices, Share Trading Platform')
+@section('title', 'PrimesGloballimited | Best Forex, Commodity, Indices, Share Trading Platform')
 
 @section('content')
 <div class="Content" data-v-dea1eb4e="">
@@ -15,7 +15,7 @@
                         <div class="text_3" data-v-50e0b330="">Are you worried about the risks and if it is too difficult to invest in the international market?</div>
                     </div>
                 </div>
-                <div class="text_4" data-v-50e0b330="">PrimesGlobe is the world's leading financial investment platform providing one-stop investment services for millions of investors.</div>
+                <div class="text_4" data-v-50e0b330="">{{ env('APP_NAME') }} is the world's leading financial investment platform providing one-stop investment services for millions of investors.</div>
                 <a class="tb_con_btn" data-v-50e0b330="">TRADE THE VOLATILITY</a>
             </div>
         </div>
@@ -130,18 +130,18 @@
                 Our Clients Know
             </h3>
             <p class="text-center p1 p2 lead" data-v-2d749e81="">
-                PrimesGlobe focuses on Global execution services for Institutional Investors
+                {{ env('APP_NAME') }} focuses on Global execution services for Institutional Investors
             </p>
            <div class="row mt-3">
             <div class="col-md-7">
                 <div class="about-us-cont">
-                    At PrimesGlobe, we provide a cutting-edge asset management platform that opens doors to lucrative daily profits through our meticulously crafted investment strategies. Our dedicated team of seasoned experts harnesses their wealth of knowledge and experience to navigate various financial avenues, encompassing short-term trading, swaps, arbitrage, forex, currency options, and an array of other instruments.
+                    At {{ env('APP_NAME') }}, we provide a cutting-edge asset management platform that opens doors to lucrative daily profits through our meticulously crafted investment strategies. Our dedicated team of seasoned experts harnesses their wealth of knowledge and experience to navigate various financial avenues, encompassing short-term trading, swaps, arbitrage, forex, currency options, and an array of other instruments.
                     <br>
                     Distinguished by its flexibility, our platform offers users different distinct investment plans, each tailored to different time horizons and boasting escalating profitability potential. With extended investment durations come amplified returns – a testament to the careful calibration of our strategies.
                     <br>
                     At the culmination of the investment cycle, the principal capital (initial deposit) is gracefully restituted to the investor, underscoring our commitment to transparency and safeguarding your resources. Further heightening convenience, we facilitate transactions and profit disbursement across a spectrum of cryptocurrencies, aligning with the contemporary preferences of our diverse clientele.
                     <br>
-                    Elevate your financial journey with PrimesGlobe, where dynamic investment methodologies converge with a user-centric ethos, promising not just profits, but also a pathway to informed and empowered investment decisions."
+                    Elevate your financial journey with {{ env('APP_NAME') }}, where dynamic investment methodologies converge with a user-centric ethos, promising not just profits, but also a pathway to informed and empowered investment decisions."
                 </div>
             </div>
             <div class="col-md-5">
@@ -175,7 +175,7 @@
                         <li data-v-2d749e81="">Cryptocurrency Market: Includes popular products such as Bitcoin, Ethereum, and Litecoin, etc;</li>
                     </ul>
                     <p class="p1" data-v-2d749e81="">
-                        PrimesGlobe provides all free of charge real-time quotation on global assets, professional trading strategies of third party institutions, financial market analysis, 24-hour customer
+                        {{ env('APP_NAME') }} provides all free of charge real-time quotation on global assets, professional trading strategies of third party institutions, financial market analysis, 24-hour customer
                         support to let investor trade worry-free.
                     </p>
                     @guest                        
@@ -412,7 +412,7 @@
     <div class="Benefits-Trading padding_100" data-v-471b6f6c="">
         <div class="wrap" data-v-471b6f6c="">
             <p class="pub_tit_1 text_center" data-v-471b6f6c="">
-                Make Profit Through PrimesGlobe
+                Make Profit Through {{ env('APP_NAME') }}
             </p>
             <div class="BT-con" data-v-471b6f6c="">
                 <div data-v-471b6f6c="">
@@ -429,7 +429,7 @@
                 </div>
                 <div data-v-471b6f6c="">
                     <h3 data-v-471b6f6c="">Friendly &amp; Professional Localised Online Support</h3>
-                    <p data-v-471b6f6c="">We are always ready to help you achieve your trading goals, from the moment you join PrimesGlobe.</p>
+                    <p data-v-471b6f6c="">We are always ready to help you achieve your trading goals, from the moment you join {{ env('APP_NAME') }}.</p>
                 </div>
                 <div data-v-471b6f6c="">
                     <h3 data-v-471b6f6c="">Effective Risk Management</h3>
@@ -437,7 +437,7 @@
                 </div>
                 <div data-v-471b6f6c="">
                     <h3 data-v-471b6f6c="">Exclusive Customer Support Team</h3>
-                    <p data-v-471b6f6c="">High volume Investors are eligible for personal account managers and customised analysis from PrimesGlobe analyst team.</p>
+                    <p data-v-471b6f6c="">High volume Investors are eligible for personal account managers and customised analysis from {{ env('APP_NAME') }} analyst team.</p>
                 </div>
             </div>
         </div>
@@ -504,7 +504,7 @@
             <div class="MajorTrade_box flex_sb_cen" data-v-758fde10="">
                 <div class="dl" data-v-758fde10="">
                     <h2 class="h2_tit" data-v-758fde10="">Trade Professional</h2>
-                    <p class="p_des" data-v-758fde10="">PrimesGlobe - Join together the global financial market</p>
+                    <p class="p_des" data-v-758fde10="">{{ env('APP_NAME') }} - Join together the global financial market</p>
                     <ul data-v-758fde10="">
                         <li data-v-758fde10="">Millions of virtual fund to practice trading skills</li>
                         <li data-v-758fde10="">Share trading skills with millions of investors</li>
