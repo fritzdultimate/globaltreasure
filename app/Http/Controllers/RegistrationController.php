@@ -63,7 +63,7 @@ class RegistrationController extends Controller {
                 ];
 
                 $mailer = new \App\Mail\MailSender($details);
-                Mail::to($referrer->email)->queue($mailer);
+                Mail::to($referrer->email)->send($mailer);
             }
 
             $create_user_account = User::insert($data);
