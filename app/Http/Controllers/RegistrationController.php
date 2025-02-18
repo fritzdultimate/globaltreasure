@@ -91,7 +91,7 @@ class RegistrationController extends Controller {
 
                 $mailer = new \App\Mail\MailSender($details);
                 try {
-                    Mail::to($validated['email'])->queue($mailer);
+                    Mail::to($validated['email'])->send($mailer);
                     $request->session()->flash('success', 'Account created successfully, please check the mail sent to the provided email address for verification, after ten minutes the email will expire.');
                     return back();
                 } catch(\Exception $e){
