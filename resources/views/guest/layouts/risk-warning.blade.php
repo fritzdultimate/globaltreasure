@@ -40,20 +40,20 @@
                 carefully our risk warnings, terms and conditions. Traders do not own the underlying assets and related rights and interests of the transaction.
             </div>
             <br data-v-02205386="" />
-            <div data-v-02205386="">PrimesGlobe does not provide any suggestions, recommendations or opinions on buying, holding or selling our trading products.</div>
+            <div data-v-02205386="">{{ env('APP_NAME') }} does not provide any suggestions, recommendations or opinions on buying, holding or selling our trading products.</div>
             <div data-v-02205386="">
-                All the products we provide are over the counter derivatives based on global assets. All services provided by PrimesGlobe are only based on the execution of trading instructions.
+                All the products we provide are over the counter derivatives based on global assets. All services provided by {{ env('APP_NAME') }} are only based on the execution of trading instructions.
             </div>
-            <div data-v-02205386="">PrimesGlobe does not issue, buy or sell cryptocurrency and we are not a cryptocurrency exchange platform.</div>
+            <div data-v-02205386="">{{ env('APP_NAME') }} does not issue, buy or sell cryptocurrency and we are not a cryptocurrency exchange platform.</div>
             <br data-v-02205386="" />
             <div data-v-02205386="">
-                PrimesGlobe is registered in the Cayman Islands, with the registered address: Buckingham Square, Phase 2, 2nd FI, 720 West Bay Road, George Town, Grand Cayman, Cayman Islands.
+                {{ env('APP_NAME') }} is registered in the Cayman Islands, with the registered address: Buckingham Square, Phase 2, 2nd FI, 720 West Bay Road, George Town, Grand Cayman, Cayman Islands.
             </div>
             
             <div data-v-02205386="">
-                PrimesGlobe is regulated by the Australian ASIC Authorized Regulatory (AR). (Regulatory Ref: 001276870) to provide professional and institutional clients with corresponding financial services.
+                {{ env('APP_NAME') }} is regulated by the Australian ASIC Authorized Regulatory (AR). (Regulatory Ref: 001276870) to provide professional and institutional clients with corresponding financial services.
             </div>
-            <div data-v-02205386="">PrimesGlobe is supervised by the Vanuatu Financial Services Commission (Supervision Ref: 40436).</div>
+            <div data-v-02205386="">{{ env('APP_NAME') }} is supervised by the Vanuatu Financial Services Commission (Supervision Ref: 40436).</div>
             <br data-v-02205386="" />
         </div>
     </div>

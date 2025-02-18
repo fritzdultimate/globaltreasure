@@ -56,9 +56,9 @@
                 <div role="tabpanel" aria-hidden="true" aria-labelledby="el-collapse-head-5400" id="el-collapse-content-5400" class="el-collapse-item__wrap" style="display: none;">
                     <div class="el-collapse-item__content">
                         <div class="header_m_top" data-v-bd520568="">
-                            <div class="font_1" data-v-bd520568="">About PrimesGlobe</div>
+                            <div class="font_1" data-v-bd520568="">About {{ env('APP_NAME') }}</div>
                             <div class="font_2" data-v-bd520568="">
-                                PrimesGlobe sets high standards to its services because quality is just as decisive for us as for our clients. We believe that versatile financial services require versatility in thinking and a unified policy of business principles.
+                                {{ env('APP_NAME') }} sets high standards to its services because quality is just as decisive for us as for our clients. We believe that versatile financial services require versatility in thinking and a unified policy of business principles.
                                 Our mission is to keep pace with global market demands and approach our clients’ investment goals with an open mind.
                             </div>
                         </div>

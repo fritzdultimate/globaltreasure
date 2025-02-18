@@ -105,9 +105,9 @@
                                     <div class="wrap" data-v-36ac65e2="">
                                         <div class="AboutUs HeaderPublic" data-v-62d9b576="" data-v-36ac65e2="">
                                             <div class="dl_con" data-v-62d9b576="">
-                                                <div class="font_1" data-v-62d9b576="">About PrimesGlobe</div>
+                                                <div class="font_1" data-v-62d9b576="">About {{ env('APP_NAME') }}</div>
                                                 <div class="font_2" data-v-62d9b576="">
-                                                    PrimesGlobe sets high standards to its services because quality is just as decisive for us as for our clients. We believe that versatile financial services require versatility in thinking and a unified policy of business principles.
+                                                    {{ env('APP_NAME') }} sets high standards to its services because quality is just as decisive for us as for our clients. We believe that versatile financial services require versatility in thinking and a unified policy of business principles.
 
                                                     Our mission is to keep pace with global market demands and approach our clients’ investment goals with an open mind.
                                                     
