@@ -1,7 +1,7 @@
         <div class="nk-footer nk-footer-fluid bg-lighter">
             <div class="container-xl wide-lg">
                 <div class="nk-footer-wrap">
-                    <div class="nk-footer-copyright"> &copy; 2023 {{ env('SITE_NAME') }}. Designed by <a href="https://primesglobe.com/" target="_blank">{{ env('SITE_NAME') }} team</a>
+                    <div class="nk-footer-copyright"> &copy; 2023 {{ env('SITE_NAME') }}. Designed by <a href="https://primesgloballimited.com/" target="_blank">{{ env('SITE_NAME') }} the team</a>
                     </div>
                 </div>
             </div>
