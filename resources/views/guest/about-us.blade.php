@@ -1,6 +1,6 @@
 @extends('guest.layouts.app')
 
-@section('title', 'PrimesGlobe | About Us')
+@section('title', 'PrimesGloballimited | About Us')
 
 @section('content')
 <div class="about_us" data-v-471b6f6c="">
@@ -8,7 +8,7 @@
         <div class="wrap" data-v-505887f7="">
             <div class="top-banner-con" data-v-505887f7="">
                 <div class="dl" data-v-505887f7="">
-                    <h2 class="h2-tit" data-v-505887f7="">About PrimesGlobe</h2>
+                    <h2 class="h2-tit" data-v-505887f7="">About {{ env('APP_NAME') }}</h2>
                     <p class="top-banner-p" data-v-505887f7="">
                       Are you interested in maximizing your returns in the world of Investment? Look no further We offer a fantastic ROI Daily on your capital investment. Not only that, but we also offer rebates for those who refer others to our platform.
                       <br>
@@ -29,9 +29,9 @@
     </div>
     <div class="earth_div padding_100" data-v-471b6f6c="">
         <div class="wrap" data-v-471b6f6c="">
-            <h2 class="h2_tit" data-v-471b6f6c="">PrimesGlobe Worldwide Service</h2>
+            <h2 class="h2_tit" data-v-471b6f6c="">{{ env('APP_NAME') }} Worldwide Service</h2>
             <p class="p_des" data-v-471b6f6c="">
-                PrimesGlobe currently provides a full range of trading and investment services for international investors in more than 10 countries around the world, such as Malaysia, Taiwan, Vietnam, Thailand, Indonesia,
+                {{ env('APP_NAME') }} currently provides a full range of trading and investment services for international investors in more than 10 countries around the world, such as Malaysia, Taiwan, Vietnam, Thailand, Indonesia,
                 India, South Korea, Spain, etc.
             </p>
             <img src="{{ asset('guest/img/earth_bg.b3caf02.svg') }}" alt="" class="top_bg_img" data-v-471b6f6c="" />
@@ -83,15 +83,15 @@
         <div class="wrap" data-v-471b6f6c="">
             <div class="hg_div_con flex_sb_cen" data-v-471b6f6c="">
                 <div class="dl" data-v-471b6f6c="">
-                    <h3 class="h3_tit" data-v-471b6f6c="">PrimesGlobe Regulator</h3>
+                    <h3 class="h3_tit" data-v-471b6f6c="">{{ env('APP_NAME') }} Regulator</h3>
                     <ul data-v-471b6f6c="">
-                        <li data-v-471b6f6c="">PrimesGlobe is supervised by industry authorities and multi-institutions.</li>
+                        <li data-v-471b6f6c="">{{ env('APP_NAME') }} is supervised by industry authorities and multi-institutions.</li>
                         <li data-v-471b6f6c="">
-                            PrimesGlobe Group is registered in the Cayman Islands, PrimesGlobal is the retail brand of PrimesGlobe Group. Among them, PrimesGlobal PTY LTD is regulated by the Australian ASIC Authorized Regulatory (AR) Regulatory
+                            {{ env('APP_NAME') }} Group is registered in the Cayman Islands, PrimesGlobal is the retail brand of {{ env('APP_NAME') }} Group. Among them, PrimesGlobal PTY LTD is regulated by the Australian ASIC Authorized Regulatory (AR) Regulatory
                             Number: 001276870
                         </li>
                         <li data-v-471b6f6c="">PrimesGlobal is supervised by Vanuatu Financial Services Commission (Regulatory Number: 40436)</li>
-                        <li data-v-471b6f6c="">All business operations of PrimesGlobe are carried out under strict supervision and comply with all regulations.</li>
+                        <li data-v-471b6f6c="">All business operations of {{ env('APP_NAME') }} are carried out under strict supervision and comply with all regulations.</li>
                     </ul>
                 </div>
                 <div class="dr flex_cen_cen" data-v-471b6f6c=""><img src="{{ asset('guest/img/hg_bg.5b4ccef.png') }}" alt="" data-v-471b6f6c="" /></div>
@@ -100,12 +100,12 @@
     </div>
     <div class="Trophy_div padding_100" data-v-471b6f6c="">
         <div class="wrap" data-v-471b6f6c="">
-            <h2 class="h2_tit" data-v-471b6f6c="">PrimesGlobe Achievement</h2>
+            <h2 class="h2_tit" data-v-471b6f6c="">{{ env('APP_NAME') }} Achievement</h2>
             <p class="p_des" data-v-471b6f6c="">
-                PrimesGlobe has been rated as one of the most popular emerging investment platforms for many times since its establishment and the company has brilliant development for rapid growth.
+                {{ env('APP_NAME') }} has been rated as one of the most popular emerging investment platforms for many times since its establishment and the company has brilliant development for rapid growth.
             </p>
             <p class="p_des p1" data-v-471b6f6c="">
-                In 2021, PrimesGlobe awarded with the most fast-growing broker, the best trading platform, the best broker etc
+                In 2021, {{ env('APP_NAME') }} awarded with the most fast-growing broker, the best trading platform, the best broker etc
             </p>
             <p class="p_des p2" data-v-471b6f6c="">You will enjoy high quality financial service with <i class="col_down">1,350,000+</i> investors worldwide.</p>
             <ul class="trophy_list" data-v-471b6f6c="">
@@ -136,7 +136,7 @@
     <div class="Benefits-Trading padding_100" data-v-471b6f6c="">
       <div class="wrap" data-v-471b6f6c="">
           <p class="pub_tit_1 text_center" data-v-471b6f6c="">
-              Make Profit Through PrimesGlobe
+              Make Profit Through {{ env('APP_NAME') }}
           </p>
           <div class="BT-con" data-v-471b6f6c="">
               <div data-v-471b6f6c="">
@@ -153,7 +153,7 @@
               </div>
               <div data-v-471b6f6c="">
                   <h3 data-v-471b6f6c="">Friendly &amp; Professional Localised Online Support</h3>
-                  <p data-v-471b6f6c="">We are always ready to help you achieve your trading goals, from the moment you join PrimesGlobe.</p>
+                  <p data-v-471b6f6c="">We are always ready to help you achieve your trading goals, from the moment you join {{ env('APP_NAME') }}.</p>
               </div>
               <div data-v-471b6f6c="">
                   <h3 data-v-471b6f6c="">Effective Risk Management</h3>
@@ -161,7 +161,7 @@
               </div>
               <div data-v-471b6f6c="">
                   <h3 data-v-471b6f6c="">Exclusive Customer Support Team</h3>
-                  <p data-v-471b6f6c="">High volume Investors are eligible for personal account managers and customised analysis from PrimesGlobe analyst team.</p>
+                  <p data-v-471b6f6c="">High volume Investors are eligible for personal account managers and customised analysis from {{ env('APP_NAME') }} analyst team.</p>
               </div>
           </div>
       </div>
