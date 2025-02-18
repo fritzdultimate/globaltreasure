@@ -1,6 +1,6 @@
 @extends('guest.layouts.app')
 
-@section('title', 'PrimesGlobe | Commodities')
+@section('title', 'PrimesGloballimited | Commodities')
 
 @section('content')
 
