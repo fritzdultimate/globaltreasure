@@ -20,8 +20,8 @@
          <td><table style="width:100%">
          <tbody><tr>
          <td width="30%" height="80" bgcolor="#000000" style="padding-left:20px;text-align:left">
-         <a href="https://www.empressglobe.com" target="_blank" data-saferedirecturl="https://www.google.com/url?q=https://www.empressglobe.com&amp;source=gmail&amp;ust=1629257826760000&amp;usg=AFQjCNGGgpz27o72cqhRKjzugomN6NYnUg">
-         <img src="{{ env("EMAIL_LOGO") }}" alt="empressglobe.com" border="0" style="display:block" class="CToWUd">
+         <a href="https://www.{{ env('APP_NAME') }}.com" target="_blank" data-saferedirecturl="https://www.google.com/url?q=https://www.{{ env('APP_NAME') }}.com&amp;source=gmail&amp;ust=1629257826760000&amp;usg=AFQjCNGGgpz27o72cqhRKjzugomN6NYnUg">
+         <img src="{{ env("EMAIL_LOGO") }}" alt="{{ env('APP_NAME') }}.com" border="0" style="display:block" class="CToWUd">
          </a>
          </td>
          <td width="40%"><div style="min-width:50px"></div></td>
@@ -112,6 +112,6 @@
         </tbody></table> </td>
          </tr>
         </tbody></table>
-        <img src="https://ci3.googleusercontent.com/proxy/NS_eWBZ38sib0l_KTTAE9qVYDWGZpXPm1nCg7IMmWKe3qxs_w87P0YEezrFM9gCs17ThY1gjnJ8dlm6UQEvqLP6W5w4PCdo2beyHoi3fOov9_AyBiRQB_heBf63MHLqD8u7OHP_4q4SaWm3tQVX3oWnJ2h9G80Jdo8Z94Lvs3zSjm_p-zh1y4KbXsv47SeFANQHLzE4GmZZNIMD6HH5joxerCnQ_Fkhj6htdFKhq78a0S15e7Gw92EcsIVmiyQsliFeIhSwQP8UnQsWFnrGAW7AoCTNz5Pa0_Z39c5i3-KoWGTgPKM8OJf3F0IUVEZGGpQyZ2jIJztWxzFhhv_yG8VpCQx-kznrJmSXXz75NJN7vVMfpFZ5VxnS31xczIgkZYmdin95MFYXYNFrtqimvS5it=s0-d-e1-ft#http://email.empressglobe.com/wf/open?upn=b5NRcAX-2BuEuTGJRk-2F9OpuKfrKYmj5hV-2Fn6N9joNM2c6Puv4hTm6b12dacE1iNBxY8nMVvxiEspeBYvqpAfz-2F2VK2mqxZkC8yXyp8IcNfpGOsVhlBTPFh8GG-2B6LM2Gn5EP8ZtWuDDZp89Ex-2FUufFBSS5XMLrJwn8U603mIsSjzDBe3wKbZfIbGH-2F85v3cbatkk-2Bu7N1VapN9ptW199LmQHBsQysn7Zlwc8cneGfGa9dQ-3D" alt="" width="1" height="1" border="0" style="height:1px!important;width:1px!important;border-width:0!important;margin-top:0!important;margin-bottom:0!important;margin-right:0!important;margin-left:0!important;padding-top:0!important;padding-bottom:0!important;padding-right:0!important;padding-left:0!important" class="CToWUd"></div>
+        <img src="https://ci3.googleusercontent.com/proxy/NS_eWBZ38sib0l_KTTAE9qVYDWGZpXPm1nCg7IMmWKe3qxs_w87P0YEezrFM9gCs17ThY1gjnJ8dlm6UQEvqLP6W5w4PCdo2beyHoi3fOov9_AyBiRQB_heBf63MHLqD8u7OHP_4q4SaWm3tQVX3oWnJ2h9G80Jdo8Z94Lvs3zSjm_p-zh1y4KbXsv47SeFANQHLzE4GmZZNIMD6HH5joxerCnQ_Fkhj6htdFKhq78a0S15e7Gw92EcsIVmiyQsliFeIhSwQP8UnQsWFnrGAW7AoCTNz5Pa0_Z39c5i3-KoWGTgPKM8OJf3F0IUVEZGGpQyZ2jIJztWxzFhhv_yG8VpCQx-kznrJmSXXz75NJN7vVMfpFZ5VxnS31xczIgkZYmdin95MFYXYNFrtqimvS5it=s0-d-e1-ft#http://email.{{ env('APP_NAME') }}.com/wf/open?upn=b5NRcAX-2BuEuTGJRk-2F9OpuKfrKYmj5hV-2Fn6N9joNM2c6Puv4hTm6b12dacE1iNBxY8nMVvxiEspeBYvqpAfz-2F2VK2mqxZkC8yXyp8IcNfpGOsVhlBTPFh8GG-2B6LM2Gn5EP8ZtWuDDZp89Ex-2FUufFBSS5XMLrJwn8U603mIsSjzDBe3wKbZfIbGH-2F85v3cbatkk-2Bu7N1VapN9ptW199LmQHBsQysn7Zlwc8cneGfGa9dQ-3D" alt="" width="1" height="1" border="0" style="height:1px!important;width:1px!important;border-width:0!important;margin-top:0!important;margin-bottom:0!important;margin-right:0!important;margin-left:0!important;padding-top:0!important;padding-bottom:0!important;padding-right:0!important;padding-left:0!important" class="CToWUd"></div>
 </body>
 </html>
