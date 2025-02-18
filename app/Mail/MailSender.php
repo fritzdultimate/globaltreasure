@@ -32,6 +32,6 @@ class MailSender extends Mailable implements ShouldQueue {
     public function build()
     {
         return $this->subject($this->details['subject'])
-                    ->view($this->details['view']);
+            ->view($this->details['view']);
     }
 }
