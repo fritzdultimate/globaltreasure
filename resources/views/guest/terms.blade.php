@@ -16,7 +16,7 @@
             <h1 class="fw-bold">General Terms</h1>
             <p>By accessing and placing an order with {{ env('APP_NAME') }}, you confirm that you are in agreement with and bound by the terms of service contained in the Terms &amp; Conditions outlined below. These terms apply to the entire website and any email or other type of communication between you and {{ env('APP_NAME') }}.</p>
             <p>Under no circumstances shall {{ env('APP_NAME') }} team be liable for any direct, indirect, special, incidental or consequential damages, including, but not limited to, loss of data or profit, arising out of the use, or the inability to use, the materials on this site, even if {{ env('APP_NAME') }} team or an authorized representative has been advised of the possibility of such damages. If your use of materials from this site results in the need for servicing, repair or correction of equipment or data, you assume any costs thereof.</p>
-            <p>{{ env('APP_NAME') }} will not be responsible for any outcome that may occur during the course of usage of our resources. We reserve the rights to change prices and revise the resources usage policy in any moment. This Terms &amp; Conditions was created with <a href="https://termify.io" target="_blank">Termify</a>.</p>
+            <p>{{ env('APP_NAME') }} will not be responsible for any outcome that may occur during the course of usage of our resources. We reserve the rights to change prices and revise the resources usage policy in any moment. </p>
 
             <br>
             <h1 class="fw-bold">License</h1>
