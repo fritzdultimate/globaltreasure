@@ -1,6 +1,6 @@
 @extends('guest.layouts.app')
 
-@section('title', 'PrimesGlobe | Funds protection')
+@section('title', 'Primesgloballimited | Funds protection')
 
 @section('content')
     <div class="Content" data-v-23e9d8b4="">
@@ -12,15 +12,15 @@
                             Client Funds Protection
                         </h2>
                         <p class="font_16_reg" data-v-23e9d8b4="">
-                            PrimesGlobe designates a top international bank as a client funds trust bank, with independent custody of client funds, which are completely separated from the company's capital.
+                            {{ env('APP_NAME') }} designates a top international bank as a client funds trust bank, with independent custody of client funds, which are completely separated from the company's capital.
                         </p>
                         <img src="assets/img/bg1.40e82ed.jpg" width="344" alt="" class="banner-img" data-v-23e9d8b4="" />
                         <div data-v-23e9d8b4="">
                             <h3 data-v-23e9d8b4="">Protect Your Assets</h3>
                             <ul data-v-23e9d8b4="">
                                 <li data-v-23e9d8b4="">Client funds are held in a separate trust account and managed in accordance with relevant laws and regulations.</li>
-                                <li data-v-23e9d8b4="">PrimesGlobe will never use client funds for hedging, any investment or other business purposes.</li>
-                                <li data-v-23e9d8b4="">PrimesGlobe has a strict internal control system and always conducts daily reconciliation to ensure the safety of client's funds.</li>
+                                <li data-v-23e9d8b4="">{{ env('APP_NAME') }} will never use client funds for hedging, any investment or other business purposes.</li>
+                                <li data-v-23e9d8b4="">{{ env('APP_NAME') }} has a strict internal control system and always conducts daily reconciliation to ensure the safety of client's funds.</li>
                                 <li data-v-23e9d8b4="">
                                     There is no negative balance system and negative balance will never exist in the client's trading account. This is to ensure that the maximum potential loss is only the margin funds
                                     for client, and the transaction risk is all controllable. In extreme cases, no negative balance protection does not apply.
@@ -38,13 +38,13 @@
             <div class="wrap" data-v-23e9d8b4="">
                 <h3 data-v-23e9d8b4="">Fund Isolation</h3>
                 <p data-v-23e9d8b4="">
-                    PrimesGlobe client's funds are completely separated from the company's capital and are stored in the different bank accounts. Our company can only transfer funds for trading purposes with the client
+                    {{ env('APP_NAME') }} client's funds are completely separated from the company's capital and are stored in the different bank accounts. Our company can only transfer funds for trading purposes with the client
                     authorization, and nobody or organization may withdraw the funds from client's trading account. We have also appointed an international accounting consulting company to conduct external audits and
                     strictly implement the regulations on &quot;The Usage of Client Funds&quot; and &quot;Adequacy of Funds&quot;.
                 </p>
                 <h3 class="mt_50" data-v-23e9d8b4="">Financial Security</h3>
                 <p data-v-23e9d8b4="">
-                    PrimesGlobe designates top international banks as client fund trust banks. The funds received by PrimesGlobe will be deposited into the bank's independent client funds trust account on the day of receipt or the
+                    {{ env('APP_NAME') }} designates top international banks as client fund trust banks. The funds received by {{ env('APP_NAME') }} will be deposited into the bank's independent client funds trust account on the day of receipt or the
                     next working day, and a series of internal control measures will be established to maintain the safety of the client funds.
                 </p>
                 <p class="jt_sty" data-v-23e9d8b4="">Clients' deposits and withdrawals need to be approved at different levels according to the amount of funds required.</p>

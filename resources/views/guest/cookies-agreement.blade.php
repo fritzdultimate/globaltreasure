@@ -1,6 +1,6 @@
 @extends('guest.layouts.app')
 
-@section('title', 'PrimesGlobe | Frequently Asked Questions')
+@section('title', 'PrimesGloballimited | Frequently Asked Questions')
 
 @section('content')
 <div class="Content" data-v-e58086ca="">
@@ -33,11 +33,11 @@
             <p>For the purposes of this Cookies Policy:</p>
             <ul>
                 <li><strong>Company</strong> (referred to as either "the Company", "We", "Us" or "Our" in this Cookies Policy)
-                    refers to PrimesGlobe</li>
+                    refers to {{ env('APP_NAME') }}</li>
                 <li><strong>Cookies</strong> means small files that are placed on Your computer, mobile device or any other
                     device
                     by a website, containing details of your browsing history on that website among its many uses.</li>
-                <li><strong>Website</strong> refers to PrimesGlobe, accessible from www.primesglobe.com</li>
+                <li><strong>Website</strong> refers to {{ env('APP_NAME') }}, accessible from www.{{ env('APP_NAME') }}.com</li>
                 <li><strong>You</strong> means the individual accessing or using the Website, or a company, or any legal entity
                     on
                     behalf of which such individual is accessing or using the Website, as applicable.</li>
@@ -137,7 +137,7 @@
             <p><strong>Contact Us</strong></p>
             <p>If you have any questions about this Cookies Policy, You can contact us:</p>
             <ul>
-                <li>By sending us an email: support@primesglobe.com</li>
+                <li>By sending us an email: support@{{ env('APP_NAME') }}.com</li>
             </ul>
             <p></p>
         </div>

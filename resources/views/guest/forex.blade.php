@@ -1,6 +1,6 @@
 @extends('guest.layouts.app')
 
-@section('title', 'PrimesGlobe | Forex')
+@section('title', 'PrimesGloballimited | Forex')
 
 @section('content')
 <div class="forex_trading_box" data-v-e3d36226="">

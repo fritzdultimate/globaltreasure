@@ -1,6 +1,6 @@
 @extends('guest.layouts.app')
 
-@section('title', 'PrimesGlobe | Frequently Asked Questions')
+@section('title', 'PrimesGloballimited | Frequently Asked Questions')
 
 @section('content')
     <div class="page_spread" data-v-971fb12a="">
