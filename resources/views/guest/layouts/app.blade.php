@@ -65,9 +65,8 @@
         @include('guest.layouts.scroll-to-top')
         @include('guest.layouts.risk-warning') 
 
-        {{-- <script src="//code.tidio.co/1wfothfhmyujkqoyzha7qxxz96munqtb.js" async></script> --}}
 
-        <script type="text/javascript">
+        {{-- <script type="text/javascript">
             (function () {
                 var options = {
                     whatsapp: "+31610227339", // WhatsApp number
@@ -79,19 +78,18 @@
                 s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
                 var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x); 
             })();
-        </script>
+        </script> --}}
         <!-- Smartsupp Live Chat script -->
-<script type="text/javascript">
-var _smartsupp = _smartsupp || {};
-_smartsupp.key = '343fb181d60a04f51bfcb312d74eaaaa46dcc346';
-window.smartsupp||(function(d) {
-  var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
-  s=d.getElementsByTagName('script')[0];c=d.createElement('script');
-  c.type='text/javascript';c.charset='utf-8';c.async=true;
-  c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
-})(document);
-</script>
-<noscript> Powered by <a href=“https://www.smartsupp.com” target=“_blank”>Smartsupp</a></noscript>
+        <script type="text/javascript">
+            var _smartsupp = _smartsupp || {};
+            _smartsupp.key = '343fb181d60a04f51bfcb312d74eaaaa46dcc346';
+            window.smartsupp||(function(d) {
+            var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+            s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+            c.type='text/javascript';c.charset='utf-8';c.async=true;
+            c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+            })(document);
+        </script>
         @stack('bottom')
     </body>
 </html>
